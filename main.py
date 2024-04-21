@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 from torchvision.models.resnet import resnet101, ResNet101_Weights
 
-# Import the resnet_cbam module which you provided
+
 from resnet_cbam import resnet101_cbam
 
 # Configuration
